@@ -24,8 +24,7 @@ Connection connection;
 		
 		try {
 			stmt = connection.createStatement();
-			rs = stmt.executeQuery(
-					"select * from info");
+			rs = stmt.executeQuery("select * from info");
 			
 			ArrayList<ESInfo> esInfos = new ArrayList<ESInfo>();
 			
@@ -451,8 +450,10 @@ Connection connection;
 				
 		//data 검색		
 		public List<ESData> searchData(int eno) throws Exception {
-			PreparedStatement stmt, stmt2 = null;
-			ResultSet rs, rs2 = null;
+			PreparedStatement stmt = null;
+			ResultSet rs = null;
+			PreparedStatement stmt2 = null;
+			ResultSet rs2 = null;
 			String power;
 			 
 			try {
@@ -480,37 +481,14 @@ Connection connection;
 				}
 
 				return esDatas;
-					
-				/*return stmt.executeUpdate("select * from edata where power<="+power);*/
+
 			} catch (Exception e) {
 				throw e;
 			} finally {
 				try {if (rs2 != null) rs2.close();} catch(Exception e) {}
-			    try {if (stmt2 != null) stmt2.close();} catch(Exception e) {}
+				try {if (stmt2 != null) stmt2.close();} catch(Exception e) {}
+				try {if (rs != null) rs2.close();} catch(Exception e) {}
+				try {if (stmt != null) stmt2.close();} catch(Exception e) {}
 			}
 		}
-	
-		/*public ESData selectData(int fno) throws Exception {
-			Statement stmt = null;
-			ResultSet rs = null;
-			try {
-				stmt = connection.createStatement();
-				rs = stmt.executeQuery(
-						"select * from edata where fno="+fno);
-				if(rs.next()) {
-					return new ESData()
-							.setFno(rs.getInt("fno"))
-							.setPower(rs.getInt("power"))
-							.setData(rs.getString("data"));
-				} else {
-					throw new Exception("해당 번호의 회원을 찾을 수 없습니다.");
-				}
-			} catch (Exception e) {
-				throw e;
-		    } finally {
-		      try {if (rs != null) rs.close();} catch(Exception e) {}
-		      try {if (stmt != null) stmt.close();} catch(Exception e) {}
-		    }
-		  }*/
-		
 }

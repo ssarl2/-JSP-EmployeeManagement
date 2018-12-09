@@ -46,21 +46,6 @@ public class ESDataServlet extends HttpServlet {
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		doGet(request, response);
-		/*try {
-			ServletContext sc = this.getServletContext();
-			ESDao esDao = (ESDao)sc.getAttribute("esDao");
-			
-			esDao.searchData(Integer.parseInt(request.getParameter("eno")));
-			
-			RequestDispatcher rd = request.getRequestDispatcher("/funcForm/ESDataSearchForm.jsp");
-			rd.forward(request, response);
-			
-		} catch (Exception e) {
-			e.printStackTrace();
-			request.setAttribute("error", e);
-			RequestDispatcher rd = request.getRequestDispatcher("/multiIncluding/Error.jsp");
-			rd.forward(request, response);
-		}*/
 	}
 
 }
