@@ -457,13 +457,10 @@ Connection connection;
 			String power;
 			 
 			try {
-				System.out.println("try진입");
 				stmt = connection.prepareStatement("select power from info where eno="+eno);
-				System.out.println("stmt와 쿼리사이");
 				rs = stmt.executeQuery();
 				rs.next();
 				power = rs.getString("power");
-				System.out.println("파워등급은요="+power);
 			
 				stmt2 = connection.prepareStatement("select * from edata where power<="+power);
 				rs2 = stmt2.executeQuery();

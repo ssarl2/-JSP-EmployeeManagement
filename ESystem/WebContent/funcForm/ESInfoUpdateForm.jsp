@@ -24,15 +24,6 @@
 <option value="4">마스터</option>
 </select>
 </label><br>
-<%-- <label>부서번호: 
-<select name="deptno">
-<option value='${esInfo.deptNo}'>${esInfo.deptNo}</option>
-<option value="100">100</option>
-<option value="120">120</option>
-<option value="600">600</option>
-<option value="900">900</option>
-</select>
-</label><br> --%>
 부서번호: <input type='text' name='deptno' value='${esInfo.deptNo}'><br>
 전화번호: <input type='text' name='phone' value='${esInfo.phone}'><br>
 주소: <input type='text' name='address' value='${esInfo.address}'><br>
