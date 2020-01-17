@@ -1,6 +1,3 @@
-# -JSP-EmployeeManagement
-Executives manage information of employee efficiently with JSP Web Server.
-
 # Needs
 What platform, languages were used and versions related to them
 
@@ -14,7 +11,20 @@ bootstrap<br>
 ### web.xml <br>
 
 # How to install or use this
+1..<br>
+2..<br>
+3..<br>
 
-# It needs to place structure of this page here by graph
-## ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+# Architecture
+## E-R Diagram of Oracle Database<br>
 ![ESystem_ERDiagram](https://user-images.githubusercontent.com/37391569/72593459-5d104f80-3948-11ea-800d-2c0bc8e8a8a6.png)
+<br>
+<br>
+## MVC
+here<br>
+<br>
+<br>
+## Web pages
+here<br>
+<br>
+<br>
