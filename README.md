@@ -6,9 +6,11 @@ What platform, languages were used and versions related to them
 
 tomcat v9.0<br>
 Oracle Database 11g Release 2<br>
-ojdbc8.jar<br>
+ojdbc6.jar<br>
+eclipse 2019-12<br>
+jdk1.8...<br>
 
-Error : ORA-12505, TNS:listener does not currently know of SID given in connect descriptor <br>
+###web.xml <br>
 
 # How to install or use this
 
