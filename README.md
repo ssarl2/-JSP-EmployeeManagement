@@ -15,7 +15,7 @@ bootstrap<br>
 2..<br>
 3..<br>
 
-# Architecture
+# Structure
 ## E-R Diagram of Oracle Database<br>
 ![ESystem_ERDiagram](https://user-images.githubusercontent.com/37391569/72593459-5d104f80-3948-11ea-800d-2c0bc8e8a8a6.png)
 <br>
