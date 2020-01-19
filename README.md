@@ -1,9 +1,9 @@
 # Operated environment
-windows 10, 64bit
+windows 10, 64bit<br>
+There are some errors such as database structure, CSS..<br>
+You need to input ESDept data at first<br>
 
 # Needs
-What platform, languages were used and versions related to them
-
 tomcat v9.0<br>
 : https://tomcat.apache.org/download-90.cgi - 32-bit/64-bit Windows Service Installer<br>
 <br>
@@ -48,7 +48,7 @@ AJP/1.3 : 8009<br>
 \<param-value\>(your oracle)\</param-value\><br>
 ...<br>
 6. Build a Server at Servers tab<br>
-7. Open the ESystem\WebContent\mainView\ESDept.jsp and Run
+7. Open the ESystem\WebContent\mainView\ESDept.jsp and Run<br>
 
 # Structure
 ## E-R Diagram of Oracle Database<br>
