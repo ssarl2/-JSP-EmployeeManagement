@@ -60,11 +60,12 @@ AJP/1.3 : 8009<br>
 <br>
 <br>
 ## MVC
-here<br>
+![MVC](https://user-images.githubusercontent.com/37391569/72677632-34eb3280-3aa7-11ea-8db6-81d0f138d521.png)
+<br>
 <br>
 <br>
 ## Web pages
-here<br>
+![Webpage](https://user-images.githubusercontent.com/37391569/72677635-37e62300-3aa7-11ea-9cb8-a1d91fc961b2.png)
 <br>
 <br>
 <br>
