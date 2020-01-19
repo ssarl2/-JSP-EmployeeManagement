@@ -11,7 +11,7 @@ Oracle Database 11g Release 2<br>
 : https://www.oracle.com/kr/database/technologies/112010-win64soft.html - win64_11gR2_database_1of2.zip + win64_11gR2_database_1of2.zip<br>
 <br>
 ojdbc6.jar<br>
-: C:\app\(User)\product\11.2.0\dbhome_1\jdbc\lib<br>
+: C:\app\\(User)\product\11.2.0\dbhome_1\jdbc\lib<br>
 <br>
 eclipse ee 2019-12<br>
 : https://www.eclipse.org/downloads/packages/release/neon/3/eclipse-ide-java-ee-developers
@@ -32,7 +32,7 @@ Tomcat admin port : 8005<br>
 HTTP/1.1 : 8090<br>
 AJP/1.3 : 8009<br>
 2. Set up your environment properly such as jre, tomcat in Project(ESystem) - Java Build Path<br>
-3. Add ojdbc6.jar to ESystem\WebContent\WEB-INF\lib from C:\app\(User)\product\11.2.0\dbhome_1\jdbc\lib<br>
+3. Add ojdbc6.jar to ESystem\WebContent\WEB-INF\lib from C:\app\\(User)\product\11.2.0\dbhome_1\jdbc\lib<br>
 4. Build Database Connections at Data Source Explorer tab<br>
 4-1. https://www.youtube.com/watch?v=-pZRydD8BBM<br>
 5. Modify your information of oracle on the ESystem\WebContent\WEB-INF\web.xml<br>
