@@ -1,4 +1,4 @@
-# Environment
+# Operated environment
 windows 10, 64bit
 
 # Needs
@@ -25,9 +25,6 @@ sql developer(optional)<br>
 : https://www.oracle.com/kr/tools/downloads/sqldev-v192-downloads.html - JDK8<br>
 <br>
 
-### web.xml <br>
-
-
 # How to install or use this
 1. Install jdk, oracle database, tomcat, eclipse ee<br>
 1-1.<br>
@@ -44,13 +41,12 @@ AJP/1.3 : 8009<br>
 <param-name>url</param-name><br>
 <param-value>jdbc:oracle:thin:@localhost:1521:orcl</param-value><br>
 ...<br>
-<param-name>username</param-name><br>
+\<param-name\>username\</param-name\><br>
 <param-value>(your oracle)</param-value><br>
 ...<br>
 <param-name>password</param-name><br>
 <param-value>(your oracle)</param-value><br>
 ...<br>
-<br>
 6. Build a Server at Servers tab<br>
 7. Open the ESystem\WebContent\mainView\ESDept.jsp and Run
 
