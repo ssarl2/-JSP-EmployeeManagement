@@ -38,14 +38,14 @@ AJP/1.3 : 8009<br>
 5. Modify your information of oracle on the ESystem\WebContent\WEB-INF\web.xml<br>
 5-1.<br>
 ...<br>
-<param-name>url</param-name><br>
-<param-value>jdbc:oracle:thin:@localhost:1521:orcl</param-value><br>
+\<param-name\>url\</param-name\><br>
+\<param-value\>jdbc:oracle:thin:@localhost:1521:orcl\</param-value\><br>
 ...<br>
 \<param-name\>username\</param-name\><br>
-<param-value>(your oracle)</param-value><br>
+\<param-value\>(your oracle)\</param-value\><br>
 ...<br>
-<param-name>password</param-name><br>
-<param-value>(your oracle)</param-value><br>
+\<param-name\>password\</param-name\><br>
+\<param-value\>(your oracle)\</param-value\><br>
 ...<br>
 6. Build a Server at Servers tab<br>
 7. Open the ESystem\WebContent\mainView\ESDept.jsp and Run
@@ -62,7 +62,6 @@ AJP/1.3 : 8009<br>
 <br>
 ## Web pages
 ![Webpage](https://user-images.githubusercontent.com/37391569/72677635-37e62300-3aa7-11ea-9cb8-a1d91fc961b2.png)
-<br>
 <br>
 <br>
 <br>
