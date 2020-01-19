@@ -47,8 +47,9 @@ AJP/1.3 : 8009<br>
 \<param-name\>password\</param-name\><br>
 \<param-value\>(your oracle)\</param-value\><br>
 ...<br>
-6. Build a Server at Servers tab<br>
-7. Open the ESystem\WebContent\mainView\ESDept.jsp and Run<br>
+6. Create tables and objects with 'SQL Developer' or 'SQL Plus(on cmd)' by ESystem.sql<br>
+7. Build a Server at Servers tab<br>
+8. Open the ESystem\WebContent\mainView\ESDept.jsp and Run<br>
 
 # Structure
 ## E-R Diagram of Oracle Database<br>
